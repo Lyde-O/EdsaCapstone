@@ -9,13 +9,15 @@
 </head>
 
 <body>
-    <nav>
-        <h1>Visit Ekiti</h1>
-        <a href="./Pages/destination.html">Travel Destination</a>
-        <a href="./Pages/dicover.html"> Discover</a>
-        <a href="./Pages/location.html">Travel Location</a>
-        <a href="./login.html">Login/SignUp</a>
-    </nav>
+    <header class="header">
+        <h1 class="header-title">Visit Ekiti</h1>
+        <nav class="nav">
+            <a class="nav-link" href="./Pages/destination.html">Travel Destination</a>
+            <a class="nav-link" href="./Pages/dicover.html">Discover</a>
+            <a class="nav-link" href="./Pages/location.html">Travel Location</a>
+            <a class="nav-link" href="./login.html">Login/SignUp</a>
+        </nav>
+    </header>
     <main>
         <div class="first-view">
             <h1>Explore the beauty of Ekiti State</h1>
@@ -26,51 +28,74 @@
         </div>
         <div class="second-view">
             <h2> Our Recommended Destinations</h2><br>
-            <div class="image-view">
-                <div> <img src="./Pages/Assets/Ikogosi.jpg" alt="Ikogosi warm spring" width="320" height="320">
-                    <p>Ikogosi warm spring</p><br>
-                    <div>
-                        <div> <img src="./Pages/Assets/Arinta-Arinta-Waterfall-3-200x300.jpg" alt="Arinta Waterfall"
-                                width="320" height="320">
-                            <p>Arinta Waterfall</p><br>
-                        </div>
-                        <div> <img src="./Pages/Assets/Ewi-Palace-Ado-Ekiti-Small-Res.jpg" alt="Ewi of Ado-Ekiti Palace"
-                                width="320" height="320">
-                            <p>Ewi of Ado-Ekiti Palace</p><br>
-                        </div>
-                        <div> <img src="./Pages/Assets/fajuyi-park-14.webp" alt="Fajuyi Park" width="380" height="320">
-                            <p>Fajuyi Park</p> <br>
-                        </div>
+            <div>
+                <div class="grid-container">
+                    <div class="small-image">
+                        <img src="./Pages/Assets/Ikogosi.jpg" alt="Ikogosi warm spring" width="320" height="320">
+                        <p>Ikogosi warm spring</p>
                     </div>
-                    <button>View more</button>
+                    <div class="small-image">
+                        <img src="./Pages/Assets/EKSU.jpg" alt="Ekiti State University" width="320" height="320">
+                        <p>Ekiti State University</p>
+                    </div>
+                    <div class="small-image">
+                        <img src="./Pages/Assets/ureje dam.jpg" alt="Ureje Dam" width="320" height="320">
+                        <p>Ureje Dam</p>
+                    </div>
+                    <div class="small-image">
+                        <img src="./Pages/Assets/Arinta-Arinta-Waterfall-3-200x300.jpg" alt="Arinta Waterfall"
+                            width="320" height="320">
+                        <p>Arinta Waterfall</p>
+                    </div>
+                    <div class="small-image">
+                        <img src="./Pages/Assets/Ewi-Palace-Ado-Ekiti-Small-Res.jpg" alt="Ewi of Ado-Ekiti Palace"
+                            width="320" height="320">
+                        <p>Ewi of Ado-Ekiti Palace</p>
+                    </div>
+
+                    <div class="small-image">
+                        <img src="./Pages/Assets/fajuyi-park-14.webp" alt="Fajuyi Park" width="380" height="320">
+                        <p>Fajuyi Park</p>
+                    </div>
                 </div>
+                <button>View more</button>
             </div>
             <div class="Info-view">
                 <h2>Taking a tour has never been Easier</h2>
-                <div>
-                    <p>Touring made simple. Browse the highest visited location. Book tour and make payment from any
-                        device online.</p>
-                    <h3 class="link-text">Find out more</h3>
-                    <img src="./Pages/Assets/Esa cave of iyin.jpg" alt="Esa Cave" width="320" height="320">
-                    <p>Esa Cave in Iyin Ekiti</p>
-                </div>
-                <div>
-                    <p>Our online navigation map, will help you get to your location in no time</p>
-                    <h3 class="link-text">Find out more</h3>
-                    <img src="./Pages/Assets/Egbe-dam.png" alt="Egbe Dam" width="320" height="320">
-                    <p>Egbe Dam in Egbe Ekiti</p>
-                </div>
-                <div>
-                    <p>You can have a preview of your destination location online</p>
-                    <h3 class="link-text">Find out more</h3>
-                    <img src="./Pages/Assets/erin ayonigba fish.jpg" alt="Erin River" width="320" height="320">
-                    <p> Erin River with the Sacred Fish</p>
-                </div>
-                <div>
-                    <p>We have curated several packages for you to pick from as your tour package</p>
-                    <h3 class="link-text">Find out more</h3>
-                    <img src="./Pages/Assets/3-Ikogosi-Springs-700x440.jpg" alt="Ikogosi" width="320" height="320">
-                    <p>Ikogosi warm spring</p>
+                <div class="grid-container2">
+                    <div class="text">
+                        <p>Touring made simple. Browse the highest visited location. Book tour and make payment from any
+                            device online.</p>
+                        <h3 class="link-text">Find out more</h3>
+                        </div>
+                        <div>
+                        <img src="./Pages/Assets/Esa cave of iyin.jpg" alt="Esa Cave" width="320" height="320">
+                        <p>Esa Cave in Iyin Ekiti</p>
+                    </div>
+                    <div class="text">
+                        <p>Our online navigation map, will help you get to your location in no time</p>
+                        <h3 class="link-text">Find out more</h3>
+                    </div>
+                    <div >
+                        <img src="./Pages/Assets/Egbe-dam.png" alt="Egbe Dam" width="320" height="320">
+                        <p>Egbe Dam in Egbe Ekiti</p>
+                    </div>
+                    <div class="text">
+                        <p>You can have a preview of your destination location online</p>
+                        <h3 class="link-text">Find out more</h3>
+                    </div>
+                    <div>
+                        <img src="./Pages/Assets/erin ayonigba fish.jpg" alt="Erin River" width="320" height="320">
+                        <p> Erin River with the Sacred Fish</p>
+                    </div>
+                    <div class="text">
+                        <p>We have curated several packages for you to pick from as your tour package</p>
+                        <h3 class="link-text">Find out more</h3>
+                    </div>
+                    <div>
+                        <img src="./Pages/Assets/3-Ikogosi-Springs-700x440.jpg" alt="Ikogosi" width="320" height="320">
+                        <p>Ikogosi warm spring</p>
+                    </div>
                 </div>
 
             </div>

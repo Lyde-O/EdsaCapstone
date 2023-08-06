@@ -1,65 +1,103 @@
-body{
-    background-color:#000000;
+body {
+    background-color: #000000;
     color: #ffffff;
 }
-.login-form{
-    background-color:#ffffff;
-    color:#000000;
+.header {
+    background-color:#000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }  
+  .header-title {
+    font-size: 24px;
+    color: #ffffff;;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: #ffffff;;
+    margin-left: 20px;
+  }
+  .nav-link:first-child {
+    margin-left: 0;
+  } 
+.login-form {
+    background-color: #ffdfa1;
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     align-content: center;
     padding: 100px;
 }
-button{
+button {
     background-color: #e3b737;
     color: #000000;
     border: none;
     cursor: pointer;
     text-align: center;
 }
-input{
+input {
     background-color: #eeeeee;
 }
-footer{
+footer {
     color: #ffffff;
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
-    gap:50px;
+    gap: 50px;
 }
-.feed-view{
+.feed-view {
     background-color: #e3b737;
     text-align: center;
     color: #000000;
-    padding-top:20px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
-.first-view{
+.first-view {
     background-image: url(./Pages/Assets/Ado_Ekiti.jpg);
     background-size: contain;
     padding: 100px;
     text-align: center;
     align-items: center;
 }
-.second-view{
-    background-color: #ffffff ;
+.second-view {
+    background-color: #ffdfa1;
     text-align: center;
     color: #000000;
     padding-top: 10px;
     margin-top: 0px;
 }
-.image-view{
-    display:flex;
-    flex-wrap: column;
-}
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .small-image {
+    text-align: center;
+  }
 
-.link-text{
+.link-text {
     color: #6a5acd;
 }
-/* .login-form2{
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0, 10px;
+    
+  }
+/* .text{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+} */
+.login-form2 {
     border: #000000;
     border-width: 2px;
     border-style: solid;
     align-items: center;
     width: 50%;
     padding: 20px;
-} */
+}
